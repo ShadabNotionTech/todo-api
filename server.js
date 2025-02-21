@@ -7,7 +7,7 @@ const PORT = 3000;
 
 // ✅ Connect to MongoDB Atlas
 mongoose
-    .connect("mongodb+srv://shadab:nQL3BT5fJCZWX5aR@cluster0.o2mbk.mongodb.net/", { useNewUrlParser: true, useUnifiedTopology: true })
+    .connect("mongodb+srv://shadab:nQL3BT5fJCZWX5aR@cluster0.o2mbk.mongodb.net/")
     .then(() => console.log("👌 Connected to MongoDB"))
     .catch((err) => console.error("❌ MongoDB Connection Error:", err));
 
